@@ -1,2 +1,2 @@
 # Python-Steam-Idler
-Idles Steam games without the need to log in
+Cross Platform Solution that Idles Steam Games
