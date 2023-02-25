@@ -83,7 +83,7 @@ class Main_Window:
             usern = account[0]
             passw = account[1]
             games = account[2]
-            self.idle_subproccess.append(subprocess.Popen([sys.executable, f"main_dev.py", f"-u{usern}", f"-p{passw}", f"-g{games}"], creationflags=subprocess.CREATE_NEW_CONSOLE)) #Need to check support on linux/macOS
+            self.idle_subproccess.append(subprocess.Popen([sys.executable, f"main.py", f"-u{usern}", f"-p{passw}", f"-g{games}"], creationflags=subprocess.CREATE_NEW_CONSOLE)) #Need to check support on linux/macOS
 
 
 
